@@ -366,8 +366,8 @@ end
 i = First.new
 puts "We started processing everything: "+Time.now.to_s
 
-# i.initvar("69.196.224.163")  # this vip is for Strayer
-i.initvar("69.196.224.113") # this vip is for SNHU
+
+i.initvar("vip")
 i.parse_opsmart
 i.parse_uptime
 i.save_to_mongo
