@@ -14,6 +14,7 @@ At this time, it only grabs the information from the different sites and stores 
 
 ### Steps?
 The idea is to have the following steps and then have everything using Sinatra
+
 1. Get all the information using only the IP from the URL and store it in the databse
 2. Connect to all the sites using the information collected in the first step and store it locally
 3. Store the images in Mongo and also automate the report to send emails
